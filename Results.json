@@ -1,0 +1,322 @@
+[
+  {
+    "Event Happened": "19/Aug/22 01:00",
+    "PatientId": "004-1234567-11005500                              ",
+    "Location": "OACCP Clinic 1                                    ",
+    "EventType": "Appointment                                       ",
+    "Periodicity": 5,
+    "SourceEvent": null,
+    "EventId": 10,
+    "EventTime": "2022-08-19T13:00:00"
+  },
+  {
+    "Event Happened": "19/Aug/22 01:05",
+    "PatientId": "004-1234567-11005500                              ",
+    "Location": "OACCP Clinic 1                                    ",
+    "EventType": "PeriodicityDefault                                ",
+    "Periodicity": 10,
+    "SourceEvent": 3,
+    "EventId": 4,
+    "EventTime": "2022-08-19T13:05:00"
+  },
+  {
+    "Event Happened": "29/Aug/22 01:00",
+    "PatientId": "004-1234567-11005500                              ",
+    "Location": "OACCP Clinic 1                                    ",
+    "EventType": "EncounterAdmission                                ",
+    "Periodicity": 10,
+    "SourceEvent": 10,
+    "EventId": 3,
+    "EventTime": "2022-08-29T13:00:00"
+  },
+  {
+    "Event Happened": "08/Sep/22 01:00",
+    "PatientId": "004-1234567-11005500                              ",
+    "Location": "OACCP Clinic 1                                    ",
+    "EventType": "EncounterDischarge                                ",
+    "Periodicity": 3,
+    "SourceEvent": 4,
+    "EventId": 5,
+    "EventTime": "2022-09-08T13:00:00"
+  },
+  {
+    "Event Happened": "08/Sep/22 01:00",
+    "PatientId": "004-1234567-11005500                              ",
+    "Location": "OACCP Clinic 1                                    ",
+    "EventType": "Appointment                                       ",
+    "Periodicity": 5,
+    "SourceEvent": 0,
+    "EventId": 24,
+    "EventTime": "2022-09-08T13:00:00"
+  },
+  {
+    "Event Happened": "19/Sep/22 01:00",
+    "PatientId": "004-1234567-11005500                              ",
+    "Location": "OACCP Clinic 1                                    ",
+    "EventType": "Appointment                                       ",
+    "Periodicity": -1,
+    "SourceEvent": 24,
+    "EventId": 19,
+    "EventTime": "2022-09-19T13:00:00"
+  },
+  {
+    "Event Happened": "23/Sep/22 05:00",
+    "PatientId": "004-1234567-11005500                              ",
+    "Location": "OACCP Clinic 1                                    ",
+    "EventType": "Appointment                                       ",
+    "Periodicity": -1,
+    "SourceEvent": 19,
+    "EventId": 20,
+    "EventTime": "2022-09-23T17:00:00"
+  },
+  {
+    "Event Happened": "29/Sep/22 01:00",
+    "PatientId": "004-1234567-11005500                              ",
+    "Location": "OACCP Clinic 1                                    ",
+    "EventType": "EncounterAdmission                                ",
+    "Periodicity": -1,
+    "SourceEvent": 20,
+    "EventId": 21,
+    "EventTime": "2022-09-29T13:00:00"
+  },
+  {
+    "Event Happened": "29/Sep/22 01:00",
+    "PatientId": "004-1234567-11005500                              ",
+    "Location": "OACCP Clinic 1                                    ",
+    "EventType": "PeriodicityDefault                                ",
+    "Periodicity": -1,
+    "SourceEvent": 21,
+    "EventId": 22,
+    "EventTime": "2022-09-29T13:00:00"
+  },
+  {
+    "Event Happened": "08/Oct/22 01:00",
+    "PatientId": "004-1234567-11005500                              ",
+    "Location": "OACCP Clinic 1                                    ",
+    "EventType": "EncounterDischarge                                ",
+    "Periodicity": -1,
+    "SourceEvent": 21,
+    "EventId": 23,
+    "EventTime": "2022-10-08T13:00:00"
+  },
+  {
+    "Event Happened": "08/Oct/22 01:00",
+    "PatientId": "004-1234567-11005500                              ",
+    "Location": "PrimaryCare Clinic1                               ",
+    "EventType": "Appointment                                       ",
+    "Periodicity": -1,
+    "SourceEvent": 5,
+    "EventId": 13,
+    "EventTime": "2022-10-08T13:00:00"
+  },
+  {
+    "Event Happened": "08/Oct/22 01:10",
+    "PatientId": "004-1234567-11005500                              ",
+    "Location": "PrimaryCare Clinic1                               ",
+    "EventType": "PeriodicityDefault                                ",
+    "Periodicity": 6,
+    "SourceEvent": 7,
+    "EventId": 8,
+    "EventTime": "2022-10-08T13:10:00"
+  },
+  {
+    "Event Happened": "08/Nov/22 01:00",
+    "PatientId": "004-1234567-11005500                              ",
+    "Location": "PrimaryCare Clinic1                               ",
+    "EventType": "EncounterAdmission                                ",
+    "Periodicity": null,
+    "SourceEvent": 5,
+    "EventId": 7,
+    "EventTime": "2022-11-08T13:00:00"
+  },
+  {
+    "Event Happened": "08/Nov/22 01:10",
+    "PatientId": "004-1234567-11005500                              ",
+    "Location": "PrimaryCare Clinic1                               ",
+    "EventType": "PeriodicityOverride                               ",
+    "Periodicity": 8,
+    "SourceEvent": 8,
+    "EventId": 14,
+    "EventTime": "2022-11-08T13:10:00"
+  },
+  {
+    "Event Happened": "08/Nov/22 01:30",
+    "PatientId": "004-1234567-11005500                              ",
+    "Location": "PrimaryCare Clinic1                               ",
+    "EventType": "EncounterDischarge                                ",
+    "Periodicity": null,
+    "SourceEvent": 43,
+    "EventId": 90,
+    "EventTime": "2022-11-08T13:30:00"
+  },
+  {
+    "Event Happened": "08/Jan/23 01:00",
+    "PatientId": "004-1234567-11005500                              ",
+    "Location": "PrimaryCare Clinic1                               ",
+    "EventType": "Appointment                                       ",
+    "Periodicity": null,
+    "SourceEvent": 9,
+    "EventId": 39,
+    "EventTime": "2023-01-08T13:00:00"
+  },
+  {
+    "Event Happened": "08/Jan/23 01:10",
+    "PatientId": "004-1234567-11005500                              ",
+    "Location": "PrimaryCare Clinic1                               ",
+    "EventType": "PeriodicityDefault                                ",
+    "Periodicity": 3,
+    "SourceEvent": 9,
+    "EventId": 40,
+    "EventTime": "2023-01-08T13:10:00"
+  },
+  {
+    "Event Happened": "08/Feb/23 01:00",
+    "PatientId": "004-1234567-11005500                              ",
+    "Location": "PrimaryCare Clinic1                               ",
+    "EventType": "EncounterAdmission                                ",
+    "Periodicity": null,
+    "SourceEvent": 9,
+    "EventId": 41,
+    "EventTime": "2023-02-08T13:00:00"
+  },
+  {
+    "Event Happened": "08/Feb/23 01:10",
+    "PatientId": "004-1234567-11005500                              ",
+    "Location": "PrimaryCare Clinic1                               ",
+    "EventType": "PeriodicityOverride                               ",
+    "Periodicity": 3,
+    "SourceEvent": 41,
+    "EventId": 42,
+    "EventTime": "2023-02-08T13:10:00"
+  },
+  {
+    "Event Happened": "08/Feb/23 01:30",
+    "PatientId": "004-1234567-11005500                              ",
+    "Location": "PrimaryCare Clinic1                               ",
+    "EventType": "EncounterDischarge                                ",
+    "Periodicity": null,
+    "SourceEvent": 43,
+    "EventId": 91,
+    "EventTime": "2023-02-08T13:30:00"
+  },
+  {
+    "Event Happened": "08/Apr/23 01:00",
+    "PatientId": "004-1234567-11005500                              ",
+    "Location": "PrimaryCare Clinic1                               ",
+    "EventType": "Appointment                                       ",
+    "Periodicity": null,
+    "SourceEvent": 43,
+    "EventId": 74,
+    "EventTime": "2023-04-08T13:00:00"
+  },
+  {
+    "Event Happened": "08/Apr/23 01:00",
+    "PatientId": "004-1234567-11005500                              ",
+    "Location": "PrimaryCare Clinic1                               ",
+    "EventType": "Appointment                                       ",
+    "Periodicity": null,
+    "SourceEvent": 43,
+    "EventId": 44,
+    "EventTime": "2023-04-08T13:00:00"
+  },
+  {
+    "Event Happened": "08/May/23 01:00",
+    "PatientId": "004-1234567-11005500                              ",
+    "Location": "PrimaryCare Clinic1                               ",
+    "EventType": "EncounterAdmission                                ",
+    "Periodicity": null,
+    "SourceEvent": 43,
+    "EventId": 46,
+    "EventTime": "2023-05-08T13:00:00"
+  },
+  {
+    "Event Happened": "08/May/23 01:30",
+    "PatientId": "004-1234567-11005500                              ",
+    "Location": "PrimaryCare Clinic1                               ",
+    "EventType": "EncounterDischarge                                ",
+    "Periodicity": null,
+    "SourceEvent": 43,
+    "EventId": 92,
+    "EventTime": "2023-05-08T13:30:00"
+  },
+  {
+    "Event Happened": "08/Jul/23 01:00",
+    "PatientId": "004-1234567-11005500                              ",
+    "Location": "PrimaryCare Clinic1                               ",
+    "EventType": "Appointment                                       ",
+    "Periodicity": null,
+    "SourceEvent": 43,
+    "EventId": 79,
+    "EventTime": "2023-07-08T13:00:00"
+  },
+  {
+    "Event Happened": "08/Jul/23 01:00",
+    "PatientId": "004-1234567-11005500                              ",
+    "Location": "PrimaryCare Clinic1                               ",
+    "EventType": "Appointment                                       ",
+    "Periodicity": null,
+    "SourceEvent": 43,
+    "EventId": 49,
+    "EventTime": "2023-07-08T13:00:00"
+  },
+  {
+    "Event Happened": "08/Aug/23 01:00",
+    "PatientId": "004-1234567-11005500                              ",
+    "Location": "PrimaryCare Clinic1                               ",
+    "EventType": "EncounterAdmission                                ",
+    "Periodicity": null,
+    "SourceEvent": 43,
+    "EventId": 81,
+    "EventTime": "2023-08-08T13:00:00"
+  },
+  {
+    "Event Happened": "08/Aug/23 01:30",
+    "PatientId": "004-1234567-11005500                              ",
+    "Location": "PrimaryCare Clinic1                               ",
+    "EventType": "EncounterDischarge                                ",
+    "Periodicity": null,
+    "SourceEvent": 43,
+    "EventId": 94,
+    "EventTime": "2023-08-08T13:30:00"
+  },
+  {
+    "Event Happened": "08/Oct/23 01:00",
+    "PatientId": "004-1234567-11005500                              ",
+    "Location": "PrimaryCare Clinic1                               ",
+    "EventType": "Appointment                                       ",
+    "Periodicity": null,
+    "SourceEvent": 43,
+    "EventId": 83,
+    "EventTime": "2023-10-08T13:00:00"
+  },
+  {
+    "Event Happened": "08/Nov/23 01:00",
+    "PatientId": "004-1234567-11005500                              ",
+    "Location": "PrimaryCare Clinic1                               ",
+    "EventType": "EncounterAdmission                                ",
+    "Periodicity": null,
+    "SourceEvent": 43,
+    "EventId": 85,
+    "EventTime": "2023-11-08T13:00:00"
+  },
+  {
+    "Event Happened": "08/Nov/23 01:30",
+    "PatientId": "004-1234567-11005500                              ",
+    "Location": "PrimaryCare Clinic1                               ",
+    "EventType": "EncounterDischarge                                ",
+    "Periodicity": null,
+    "SourceEvent": 43,
+    "EventId": 95,
+    "EventTime": "2023-11-08T13:30:00"
+  },
+  {
+    "Event Happened": "08/Jan/24 01:00",
+    "PatientId": "004-1234567-11005500                              ",
+    "Location": "PrimaryCare Clinic1                               ",
+    "EventType": "Appointment                                       ",
+    "Periodicity": null,
+    "SourceEvent": 43,
+    "EventId": 88,
+    "EventTime": "2024-01-08T13:00:00"
+  }
+]
